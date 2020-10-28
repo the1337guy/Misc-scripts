@@ -1,0 +1,22 @@
+{
+  "name": "create-deep-folders",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./index.js",
+  "repository": "https://github.com/the1337guy/misc-scripts.git",
+  "license": "GPL-3.0-or-later",
+  "private": false,
+  "dependencies": {
+    "fs-jetpack": "^4.0.1",
+    "lodash.range": "^3.2.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^15.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2"
+  }
+}
