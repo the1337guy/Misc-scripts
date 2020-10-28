@@ -18,7 +18,7 @@ async function mkfolder (folderPth, remainingLevels) {
 }
 
 async function main () {
-  const l = Number(prompt('How many levels do you want?'))
+  const l = Number(prompt('How many levels do you want? '))
   if (!Number.isFinite(l)) {
     console.log('Invalid answer:', l)
     process.exit(1)
